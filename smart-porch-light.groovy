@@ -15,8 +15,6 @@
  */
  
 import java.text.SimpleDateFormat
-import java.util.Date
-import java.util.Locale
 import groovy.time.TimeCategory
 
 definition(
