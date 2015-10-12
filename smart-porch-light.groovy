@@ -438,7 +438,7 @@ def contactHandler(evt) {
 }
 
 def accelerationHandler(evt) {
-	if (evt.value == "avtive" && state.enabled && !state.active) {
+	if (evt.value == "active" && state.enabled && !state.active) {
 		def reset=100
 		if (brightnessLevelAcceleration != null) reset = brightnessLevelAcceleration
 		lightOnEvent(reset)
